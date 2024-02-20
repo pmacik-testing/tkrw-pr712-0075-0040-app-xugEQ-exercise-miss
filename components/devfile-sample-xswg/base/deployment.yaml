@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-xswg
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0040-tenant/tkrw-pr712-0075-0040-app/devfile-sample-xswg@sha256:8b7df5d28682f61e74a7008254a82813ac103603ea7434cce9be69fe19034074
         name: my-nodejs
         ports:
         - containerPort: 3001
